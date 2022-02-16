@@ -1,7 +1,7 @@
+<!DOCTYPE html>
 <html>
     <!-- Hi, I am Ali and this is my code for Homework 1 of Web Development course -->
-    <body>
-        <style>
+    <style>
         h1 {
             font-family: sans-serif;
         } 
@@ -9,6 +9,8 @@
         font-style: italic;  
         }
             </style>
+    <body>
+        
     <h1> Challenge 1 <br></h1>
    <!-- I wanted to create a form entry field. So user can actually engage with the system rather than just seeing the change for a stationary amount of cents -->
     <p id="formlabel">Please enter the money due in cents:</p>  
