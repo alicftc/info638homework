@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    
+<head>
+    <title> Ali's Second Code Homework </title> 
     <style>
         body {
             max-width: 80%;
@@ -17,8 +20,6 @@
             font-family: sans-serif;
         }
         </style>
-    <head>
-    <title> Ali's Second Code Homework </title> 
     </head>
     <body>
 
