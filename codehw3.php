@@ -42,6 +42,7 @@
 <h2>Challenge 1</h2>
 
 <?php
+//This is the array I created
 $books=array(
     'Title'=>array("PHP and MySQL Web Development","Web Design with HTML, CSS, JavaScript and jQuery","PHP Cookbook: Solutions & Examples for PHP Programmers", "JavaScript and JQuery: Interactive Front-End Web Development","Modern PHP: New Features and Good Practices","Programming PHP"),
     'Author'=>array("Luke Welling", "Jon Duckett", "David Sklar", "Jon Duckett", "Josh Lockhart", "Kevin Tatroe"),
@@ -50,13 +51,15 @@ $books=array(
     'Price'=>array(31.63,41.23,40.88,22.09,28.49,28.96)
 );
 
-//echo "<table>";
+//I started table with a general echo table command
 echo "<table>";
 echo "<tr>";
+//First with a foreach I have produced the headings
 foreach($books as $item=>$description){
      echo "<th> $item </th>";  
 }
 echo "</tr>";
+//Then I have populated the table rows and cells with a for loop
 for ($j=0;$j<6;$j++){
     echo "<tr>";
     echo "<td>".$books['Title'][$j]."</td>"."<td>".$books['Author'][$j]."</td><td>".$books['# of pages'][$j]."</td><td>".$books['Type'][$j]."</td><td>".$books['Price'][$j];
@@ -64,6 +67,7 @@ for ($j=0;$j<6;$j++){
 }
 echo "</table>";
 
+//This function calculates the sum of an array
 $sumprice= array_sum($books['Price']);
 echo "<p id='total'>"."Your total price is ". "$sumprice"."</p>";
 /*for ($j=0,$j<6,$j++)
@@ -73,6 +77,7 @@ echo "<p id='total'>"."Your total price is ". "$sumprice"."</p>";
 
 echo "<h2>Challenge 2 - Coin Toss, continued</h2>";
 
+//Inside of the function is mostly the same code from the last week. I have altered the variable names
 function cointoss (int $headsinarow){
     $tails="<img src='img/tails.png' alt='tails side of a quarter coin'>";
     $heads="<img class='bigcoin' src='img/heads.png' alt='heads side of a quarter coin'>";
