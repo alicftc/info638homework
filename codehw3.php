@@ -13,7 +13,7 @@
                 background-color: rgb(1,169,109);
                 padding: 10px;
                 text-align: left;
-                font-style: bold;}
+                font-weight: bold;}
             tr:nth-child(even) {background-color:#e5e5e5;}
             tr:hover {
                 background-color: rgb(1,169,109);
